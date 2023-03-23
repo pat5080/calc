@@ -16,6 +16,9 @@
 		43D551E429C69D3000998A51 /* ExceptionHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = 43D551E329C69D3000998A51 /* ExceptionHandler.swift */; };
 		43D551E829C6E90900998A51 /* Addition.swift in Sources */ = {isa = PBXBuildFile; fileRef = 43D551E729C6E90900998A51 /* Addition.swift */; };
 		43D551EA29C6E92A00998A51 /* Subtraction.swift in Sources */ = {isa = PBXBuildFile; fileRef = 43D551E929C6E92A00998A51 /* Subtraction.swift */; };
+		43D551EC29CBDE0600998A51 /* Multiply.swift in Sources */ = {isa = PBXBuildFile; fileRef = 43D551EB29CBDE0600998A51 /* Multiply.swift */; };
+		43D551EE29CBDE1500998A51 /* Divide.swift in Sources */ = {isa = PBXBuildFile; fileRef = 43D551ED29CBDE1500998A51 /* Divide.swift */; };
+		43D551F029CBED5C00998A51 /* Modulus.swift in Sources */ = {isa = PBXBuildFile; fileRef = 43D551EF29CBED5C00998A51 /* Modulus.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -53,6 +56,9 @@
 		43D551E329C69D3000998A51 /* ExceptionHandler.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExceptionHandler.swift; sourceTree = "<group>"; };
 		43D551E729C6E90900998A51 /* Addition.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Addition.swift; sourceTree = "<group>"; };
 		43D551E929C6E92A00998A51 /* Subtraction.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Subtraction.swift; sourceTree = "<group>"; };
+		43D551EB29CBDE0600998A51 /* Multiply.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Multiply.swift; sourceTree = "<group>"; };
+		43D551ED29CBDE1500998A51 /* Divide.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Divide.swift; sourceTree = "<group>"; };
+		43D551EF29CBED5C00998A51 /* Modulus.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Modulus.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -91,6 +97,9 @@
 				43D551E329C69D3000998A51 /* ExceptionHandler.swift */,
 				43D551E729C6E90900998A51 /* Addition.swift */,
 				43D551E929C6E92A00998A51 /* Subtraction.swift */,
+				43D551EB29CBDE0600998A51 /* Multiply.swift */,
+				43D551ED29CBDE1500998A51 /* Divide.swift */,
+				43D551EF29CBED5C00998A51 /* Modulus.swift */,
 			);
 			path = calc;
 			sourceTree = "<group>";
@@ -220,10 +229,13 @@
 			files = (
 				054418F62055EFEB008C821B /* main.swift in Sources */,
 				43D551E029C599FF00998A51 /* Calculator.swift in Sources */,
+				43D551F029CBED5C00998A51 /* Modulus.swift in Sources */,
 				43D551E429C69D3000998A51 /* ExceptionHandler.swift in Sources */,
 				43D551E229C69C6800998A51 /* CalcOrchestrator.swift in Sources */,
+				43D551EE29CBDE1500998A51 /* Divide.swift in Sources */,
 				43D551EA29C6E92A00998A51 /* Subtraction.swift in Sources */,
 				43D551E829C6E90900998A51 /* Addition.swift in Sources */,
+				43D551EC29CBDE0600998A51 /* Multiply.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

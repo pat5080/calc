@@ -19,7 +19,7 @@ os_log(.info, "Debug: parsed input as \(args)")
 
 
 
-//args = ["5", "-", "5"]
+//args = ["15", "x", "5"]
 
 var calculate = CalcOrchestrator(args: args)
 

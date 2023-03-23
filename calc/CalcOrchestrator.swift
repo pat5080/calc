@@ -34,34 +34,56 @@ class CalcOrchestrator{
             case "-":
                 operationFound = "-"
                 break
+            case "x":
+                operationFound = "x"
+                break
+            case "/":
+                operationFound = "/"
+                break
+            case "%":
+                operationFound = "%"
+                break
             default:
                 break
             }
         }
         
-        // remove the operation, just have the numbers
-        
         var numberArray : [String] = []
         
         for numbers in args{
-            if(numbers == "+" || numbers == "-")
+            if(numbers == "+" || numbers == "-" || numbers == "x" || numbers == "/" || numbers == "%")
             {
                 continue
             }
             numberArray.append(numbers)
         }
         
+        if(operationFound == "-1")
+        {
+            return numberArray[0]
+        }
+        
         var result: Int
         
         switch (operationFound) {
         case "+":
-            var addition = Addition(numbers: numberArray)
+            let addition = Addition(numbers: numberArray)
             result = addition.add()
             break
         case "-":
-            var subtraction = Subtraction(numbers: numberArray)
+            let subtraction = Subtraction(numbers: numberArray)
             result = subtraction.subtract()
             break
+        case "x":
+            let multiplication = Multiply(numbers: numberArray)
+            result = multiplication.multiply()
+            break
+        case "/":
+            let division = Divide(numbers: numberArray)
+            result = division.divide()
+        case "%":
+            let modulus = Modulus(numbers: numberArray)
+            result = modulus.modulo()
         default:
             result = 0
         }
