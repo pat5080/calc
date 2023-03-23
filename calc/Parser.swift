@@ -8,8 +8,13 @@
 
 import Foundation
 
+/// This class is dedicated to validating input and returning the correct error message if there
+/// is an error. It will throw the appropriate error on invalid input.
 class Parser{
     
+    /// This function contains all functionality.
+    /// It loops through user input and seperates integers and operations into
+    /// two separate arrays for processing.
     func process(args: [String]) -> Response
     {
         var operations: [String] = []
@@ -46,7 +51,7 @@ class Parser{
         {
             if(args.count > 1)
             {
-                return Response(numbers: values, operations: operations, isValid: false, errorMessage: "Incomplete expression. Expected input of the form [number] [operator number ...]")
+                return Response(numbers: values, operations: operations, isValid: false, errorMessage: Definitions.incompleteError)
             }
             else
             {
@@ -54,10 +59,9 @@ class Parser{
             }
         }
         
-        
         if(operations.count != (values.count - 1))
         {
-            return Response(numbers: values, operations: operations, isValid: false, errorMessage: "Incomplete expression. Expected input of the form [number] [operator number ...]")
+            return Response(numbers: values, operations: operations, isValid: false, errorMessage: Definitions.incompleteError)
         }
         
         return Response(numbers: values, operations: operations, isValid: true)

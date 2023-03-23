@@ -8,6 +8,9 @@
 
 import Foundation
 
+/// This struct contains the response model for the function that
+/// constructs an two new arrays with values that only require
+/// addition or subtraction to solve.
 struct SolveResponse {
     let numbers: [Int]
     let operations: [String]

@@ -9,20 +9,20 @@
 import Foundation
 import OSLog
 
+/// Main entry point for the program
+/// Arguments are taken from user input and passed in Calculator class
+/// The result is returned in a struct with the result and bool indicating validity
+/// os_log is used to print to std_err
+
 var args = ProcessInfo.processInfo.arguments
 args.removeFirst() // remove the name of the program
 
 var standardError = FileHandle.standardError
 
-os_log(.info,"Calc implementation v1.0")
-os_log(.info, "Debug: parsed input as \(args)")
-
-
-
-//args = ["10","-","5","+","2","/","2","x","3","%","2"]
+//os_log(.info,"Calc implementation v1.0")
+//os_log(.info, "Debug: parsed input as \(args)")
 
 var calculate = Calculator()
-
 var result = calculate.process(args: args)
 
 print(result.result)

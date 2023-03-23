@@ -8,6 +8,8 @@
 
 import Foundation
 
+/// This struct contains the response model for the object returned from
+/// the Parser.
 struct Response {
     let numbers: [Int]
     let operations: [String]

@@ -16,6 +16,7 @@
 		43D551F429CBFCC500998A51 /* Response.swift in Sources */ = {isa = PBXBuildFile; fileRef = 43D551F329CBFCC500998A51 /* Response.swift */; };
 		43D551F629CC1E0900998A51 /* SolveResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = 43D551F529CC1E0900998A51 /* SolveResponse.swift */; };
 		43D551F829CC308D00998A51 /* Result.swift in Sources */ = {isa = PBXBuildFile; fileRef = 43D551F729CC308D00998A51 /* Result.swift */; };
+		43D551FA29CC6CC700998A51 /* Definitions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 43D551F929CC6CC700998A51 /* Definitions.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -53,6 +54,7 @@
 		43D551F329CBFCC500998A51 /* Response.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Response.swift; sourceTree = "<group>"; };
 		43D551F529CC1E0900998A51 /* SolveResponse.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SolveResponse.swift; sourceTree = "<group>"; };
 		43D551F729CC308D00998A51 /* Result.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Result.swift; sourceTree = "<group>"; };
+		43D551F929CC6CC700998A51 /* Definitions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Definitions.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -91,6 +93,7 @@
 				43D551F329CBFCC500998A51 /* Response.swift */,
 				43D551F529CC1E0900998A51 /* SolveResponse.swift */,
 				43D551F729CC308D00998A51 /* Result.swift */,
+				43D551F929CC6CC700998A51 /* Definitions.swift */,
 			);
 			path = calc;
 			sourceTree = "<group>";
@@ -218,6 +221,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				43D551FA29CC6CC700998A51 /* Definitions.swift in Sources */,
 				054418F62055EFEB008C821B /* main.swift in Sources */,
 				43D551E029C599FF00998A51 /* Calculator.swift in Sources */,
 				43D551F429CBFCC500998A51 /* Response.swift in Sources */,
@@ -264,7 +268,7 @@
 				DEAD_CODE_STRIPPING = YES;
 				DEVELOPMENT_TEAM = "";
 				GCC_C_LANGUAGE_STANDARD = gnu11;
-				MACOSX_DEPLOYMENT_TARGET = 13.1;
+				MACOSX_DEPLOYMENT_TARGET = "$(RECOMMENDED_MACOSX_DEPLOYMENT_TARGET)";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE_SPECIFIER = "";
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
@@ -291,7 +295,7 @@
 				DEAD_CODE_STRIPPING = YES;
 				DEVELOPMENT_TEAM = "";
 				GCC_C_LANGUAGE_STANDARD = gnu11;
-				MACOSX_DEPLOYMENT_TARGET = 13.1;
+				MACOSX_DEPLOYMENT_TARGET = "$(RECOMMENDED_MACOSX_DEPLOYMENT_TARGET)";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE_SPECIFIER = "";
 				SWIFT_VERSION = 4.0;
@@ -422,7 +426,7 @@
 				DEVELOPMENT_TEAM = "";
 				INFOPLIST_FILE = CalcTest/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
-				MACOSX_DEPLOYMENT_TARGET = 13.1;
+				MACOSX_DEPLOYMENT_TARGET = "$(RECOMMENDED_MACOSX_DEPLOYMENT_TARGET)";
 				PRODUCT_BUNDLE_IDENTIFIER = UTS.CalcTest;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE_SPECIFIER = "";
@@ -446,7 +450,7 @@
 				DEVELOPMENT_TEAM = "";
 				INFOPLIST_FILE = CalcTest/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
-				MACOSX_DEPLOYMENT_TARGET = 13.1;
+				MACOSX_DEPLOYMENT_TARGET = "$(RECOMMENDED_MACOSX_DEPLOYMENT_TARGET)";
 				PRODUCT_BUNDLE_IDENTIFIER = UTS.CalcTest;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE_SPECIFIER = "";
