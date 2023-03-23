@@ -19,18 +19,15 @@ os_log(.info, "Debug: parsed input as \(args)")
 
 
 
-//args = ["15", "x", "5"]
+//args = ["10","-","5","+","2","/","2","x","3","%","2"]
 
-var calculate = CalcOrchestrator(args: args)
+var calculate = Calculator()
 
-var result = calculate.calculate()
+var result = calculate.process(args: args)
 
-print(result)
+print(result.result)
 
-// Parse the arguments in here and store the result in an array and send the array for processing
-
-//let calculate = CalcOrchestrator(args)
-
-//print("Output from program: \(calculate.output)")
-
-//print(Int(args[0])!)
+if(!result.isValid)
+{
+    exit(EXIT_FAILURE)
+}

@@ -12,13 +12,11 @@
 		054418F62055EFEB008C821B /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = 054418F52055EFEB008C821B /* main.swift */; };
 		05C4D95F1E76182500AB9F52 /* CalcTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 05C4D95E1E76182500AB9F52 /* CalcTest.swift */; };
 		43D551E029C599FF00998A51 /* Calculator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 43D551DF29C599FF00998A51 /* Calculator.swift */; };
-		43D551E229C69C6800998A51 /* CalcOrchestrator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 43D551E129C69C6800998A51 /* CalcOrchestrator.swift */; };
 		43D551E429C69D3000998A51 /* ExceptionHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = 43D551E329C69D3000998A51 /* ExceptionHandler.swift */; };
-		43D551E829C6E90900998A51 /* Addition.swift in Sources */ = {isa = PBXBuildFile; fileRef = 43D551E729C6E90900998A51 /* Addition.swift */; };
-		43D551EA29C6E92A00998A51 /* Subtraction.swift in Sources */ = {isa = PBXBuildFile; fileRef = 43D551E929C6E92A00998A51 /* Subtraction.swift */; };
-		43D551EC29CBDE0600998A51 /* Multiply.swift in Sources */ = {isa = PBXBuildFile; fileRef = 43D551EB29CBDE0600998A51 /* Multiply.swift */; };
-		43D551EE29CBDE1500998A51 /* Divide.swift in Sources */ = {isa = PBXBuildFile; fileRef = 43D551ED29CBDE1500998A51 /* Divide.swift */; };
-		43D551F029CBED5C00998A51 /* Modulus.swift in Sources */ = {isa = PBXBuildFile; fileRef = 43D551EF29CBED5C00998A51 /* Modulus.swift */; };
+		43D551F229CBF6B000998A51 /* Parser.swift in Sources */ = {isa = PBXBuildFile; fileRef = 43D551F129CBF6B000998A51 /* Parser.swift */; };
+		43D551F429CBFCC500998A51 /* Response.swift in Sources */ = {isa = PBXBuildFile; fileRef = 43D551F329CBFCC500998A51 /* Response.swift */; };
+		43D551F629CC1E0900998A51 /* SolveResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = 43D551F529CC1E0900998A51 /* SolveResponse.swift */; };
+		43D551F829CC308D00998A51 /* Result.swift in Sources */ = {isa = PBXBuildFile; fileRef = 43D551F729CC308D00998A51 /* Result.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -52,13 +50,11 @@
 		05C4D9601E76182500AB9F52 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		05F9F69E1E9DEDD500694D73 /* CalcTest-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "CalcTest-Bridging-Header.h"; sourceTree = "<group>"; };
 		43D551DF29C599FF00998A51 /* Calculator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Calculator.swift; sourceTree = "<group>"; };
-		43D551E129C69C6800998A51 /* CalcOrchestrator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CalcOrchestrator.swift; sourceTree = "<group>"; };
 		43D551E329C69D3000998A51 /* ExceptionHandler.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExceptionHandler.swift; sourceTree = "<group>"; };
-		43D551E729C6E90900998A51 /* Addition.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Addition.swift; sourceTree = "<group>"; };
-		43D551E929C6E92A00998A51 /* Subtraction.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Subtraction.swift; sourceTree = "<group>"; };
-		43D551EB29CBDE0600998A51 /* Multiply.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Multiply.swift; sourceTree = "<group>"; };
-		43D551ED29CBDE1500998A51 /* Divide.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Divide.swift; sourceTree = "<group>"; };
-		43D551EF29CBED5C00998A51 /* Modulus.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Modulus.swift; sourceTree = "<group>"; };
+		43D551F129CBF6B000998A51 /* Parser.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Parser.swift; sourceTree = "<group>"; };
+		43D551F329CBFCC500998A51 /* Response.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Response.swift; sourceTree = "<group>"; };
+		43D551F529CC1E0900998A51 /* SolveResponse.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SolveResponse.swift; sourceTree = "<group>"; };
+		43D551F729CC308D00998A51 /* Result.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Result.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -93,13 +89,11 @@
 			children = (
 				054418F52055EFEB008C821B /* main.swift */,
 				43D551DF29C599FF00998A51 /* Calculator.swift */,
-				43D551E129C69C6800998A51 /* CalcOrchestrator.swift */,
 				43D551E329C69D3000998A51 /* ExceptionHandler.swift */,
-				43D551E729C6E90900998A51 /* Addition.swift */,
-				43D551E929C6E92A00998A51 /* Subtraction.swift */,
-				43D551EB29CBDE0600998A51 /* Multiply.swift */,
-				43D551ED29CBDE1500998A51 /* Divide.swift */,
-				43D551EF29CBED5C00998A51 /* Modulus.swift */,
+				43D551F129CBF6B000998A51 /* Parser.swift */,
+				43D551F329CBFCC500998A51 /* Response.swift */,
+				43D551F529CC1E0900998A51 /* SolveResponse.swift */,
+				43D551F729CC308D00998A51 /* Result.swift */,
 			);
 			path = calc;
 			sourceTree = "<group>";
@@ -229,13 +223,11 @@
 			files = (
 				054418F62055EFEB008C821B /* main.swift in Sources */,
 				43D551E029C599FF00998A51 /* Calculator.swift in Sources */,
-				43D551F029CBED5C00998A51 /* Modulus.swift in Sources */,
+				43D551F429CBFCC500998A51 /* Response.swift in Sources */,
+				43D551F229CBF6B000998A51 /* Parser.swift in Sources */,
+				43D551F829CC308D00998A51 /* Result.swift in Sources */,
+				43D551F629CC1E0900998A51 /* SolveResponse.swift in Sources */,
 				43D551E429C69D3000998A51 /* ExceptionHandler.swift in Sources */,
-				43D551E229C69C6800998A51 /* CalcOrchestrator.swift in Sources */,
-				43D551EE29CBDE1500998A51 /* Divide.swift in Sources */,
-				43D551EA29C6E92A00998A51 /* Subtraction.swift in Sources */,
-				43D551E829C6E90900998A51 /* Addition.swift in Sources */,
-				43D551EC29CBDE0600998A51 /* Multiply.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
